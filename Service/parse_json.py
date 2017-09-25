@@ -50,7 +50,7 @@ def compositions(id):
     return comp_list
 
 
-print (compositions(artists_id_list(name)))
-print (artists_id_list(name))
-print (artist_name_list(name))
+print (compositions(artists_id_list(request.search_query)))
+print (artists_id_list(request.search_query))
+print (artist_name_list(request.search_query))
 #print (name)
